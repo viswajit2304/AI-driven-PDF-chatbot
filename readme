@@ -1,0 +1,25 @@
+Conversational RAG using open-source models
+
+Prerequisites: requirements.txt
+
+Environment Variables: 
+1.Huggingface API (in embedding.py)
+2.Path to the folder containing the downloaded models.
+    one for embedding model (need to be changed in embedding.py)
+    the other is for llm model (need to be changed in llm.py)
+3.Weaviate URL (in main.py)
+
+How to Run: streamlit run main.py
+
+Here are links to some of the open-source models:
+1.Nomic embedding model 
+    nomic-ai/nomic-embed-text-v1.5 https://huggingface.co/nomic-ai/nomic-embed-text-v1.5
+2.qwen2 model
+    0.5B: Qwen/Qwen2-0.5B-Instruct https://huggingface.co/Qwen/Qwen2-0.5B-Instruct
+    1.5B: Qwen/Qwen2-1.5B-Instruct https://huggingface.co/Qwen/Qwen2-1.5B-Instruct
+    7B: Qwen/Qwen2-7B-Instruct https://huggingface.co/Qwen/Qwen2-7B-Instruct
+    72B: Qwen/Qwen2-72B-Instruct https://huggingface.co/Qwen/Qwen2-72B-Instruct
+
+Next steps:
+Integration of support for multiple file formats.
+Improving the latency.

@@ -1,0 +1,9 @@
+langchain
+weaviate-client
+langchain_community
+huggingface_hub
+langchain_huggingface
+transformers
+streamlit
+einops
+re
